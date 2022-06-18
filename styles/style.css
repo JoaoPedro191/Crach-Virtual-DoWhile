@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {  
+  margin: 0;
+}
+
+:root {
+  --gray: hsl(240, 9%, 87%);
+  --black: hsl(240, 6%, 13%) 
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+   display: grid;
+   place-items: center;
+   -webkit-font-smoothing: antialiased;
+}
+
+ main#main {
+  background-image: url(/images/background.svg);
+  background-repeat: no-repeat;
+  width: 375px;
+  height: 812px;
+}
+
+div.content {
+  max-width: 252px;
+  width: 100%; 
+  margin: auto; 
+  text-align: center;
+}
+
+div.content h1 {
+  margin-top: 1.5rem;
+
+}
+
+div.content p {
+  margin-top: 2rem;
+}
+
+div.avatar{
+  width: 10rem;
+  margin: 11.5rem auto 0;
+  position: relative;
+}
+
+div.avatar span {
+  position: absolute;
+  left: 0;
+  top: -15px;
+}
+
+div.avatar > img {
+  width: 10rem;
+  height: 11.5rem;
+  object-fit: cover;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+  text-decoration: none;
+  margin-top: 0.25rem;
+  color: var(--gray);
+}
+
+
+ul.list-items {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  align-items: center;
+  column-gap: 0.5rem;
+  padding: 0;
+  list-style-type: none;
+}
+/* bennettfelly.com */
