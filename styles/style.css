@@ -21,7 +21,7 @@ body {
 }
 
  main#main {
-  background-image: url(/images/background.svg);
+  background-image: url(../images/background.svg);
   background-repeat: no-repeat;
   width: 375px;
   height: 812px;
